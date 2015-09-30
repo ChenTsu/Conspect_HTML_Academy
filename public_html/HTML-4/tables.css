@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 12.09.2015, 21:36:50
+    Author     : chentsu
+*/
+
+/*table{
+	border: 4px solid black;
+}*/
+.deftable {
+	border: 3px solid black;
+}
+
+.defcell {
+	border-bottom:  2px solid red;
+	border-top: 2px solid green;
+	border-left: 2px solid blue;
+	border-right: 2px solid orange;
+
+}
+
+#collapsedtable {
+	border-collapse: collapse;
+	border: 1px solid deepskyblue;
+}
+
+.colspaned{
+	border: 1px solid black;
+	/*border-collapse: collapse;*/
+}
+.rowspaned{
+	border: 1px solid maroon;
+}
+.pinked {
+	background-color: pink;
+}
+
+.sizedtable {
+	border: 1px solid blue;
+	width: 80%;
+	/*height: 100px;*/
+}
+.sizedrow1 {
+	height: 50px;
+}
+.sizedrow2 {
+	height: 80px;
+	color:  darkolivegreen;
+	background: lightgrey;
+}
+.sizedcol-1 {
+	width: 50%;
+}
+.sizedcol-2 {
+	width: 5%;
+}
+
+
+

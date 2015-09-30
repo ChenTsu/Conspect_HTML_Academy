@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Структура ХТМЛ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="содержит, ключевые слова, и фразы">
+        <meta name="description" content="тут краткое описание содержимого страницы">
+    </head>
+    <body>
+        <h1>Основа ХТМЛ</h1>
+        <div>
+            <h2>тип файла</h2>
+            <p>Каждый HTML-документ должен начинаться с декларации типа документа или «доктайпа».
+               <br>Тип документа нужен, чтобы браузер мог определить версию HTML и правильно отобразить страницу.
+               <br>для последней версии HTML это выглядит так &lt;!DOCTYPE html&gt;
+            </p>
+            
+            <h2>Тег &lt;HTML&gt;</h2>
+            <p>Тег &lt;html&gt; — это контейнер, в котором находится всё содержимое страницы.
+                <br>Как правило, тег &lt;html&gt; идёт в документе вторым после доктайпа.
+            </p>
+            <p>Тег &lt;head&gt; предназначен для хранения других элементов, цель которых — помочь браузеру в работе с данными.
+                <br>Содержимое этого тега не отображается напрямую.
+            </p>
+            <p>Тег &lt;body&gt; предназначен для хранения содержания веб-страницы (контента), отображаемого в окне браузера.</p>
+            
+            <h2>Теги информации о странице. располагаются в теге &lt;head&gt;</h2>
+            <p>Выставляем кодировку страницы &lt;meta charset="UTF-8"&gt;</p>
+            <p>задаем заголовок вкладки в  теге &lt;title&gt;</p>
+            <p>задаем ключевые слова страницы для поисковиков &lt;meta name="keywords" content="ключевые, слова и фразы, через запятую"&gt;</p>
+            <p>задаем краткое описание которое будет показываться под ссылкой в результатах поисковиков &lt;meta name="descriptoin" content="базовые теги страницы ХТМЛ"&gt;</p>
+        </div>
+        <div>
+            <h2>Подключаемые стили и ресуры</h2>
+            <p>хорошим тоном считается подключать внешние стили в &lt;head&gt;, а скрипты перед закрывающим тегом &lt;/body&gt;.</p>
+            <p>стили подключаются в теге &lt;link rel="stylesheet" href="style.css"&gt; или  внутри тега &lt;style&gt;Пишут код CSS&lt;/style&gt;</p>
+            <p>скрипты подключаются в параметр src тега &lt;script src="some/file.js"&gt;&lt;/script&gt; или просто код JS добавляется внутри этого тега</p>
+        </div>
+        
+        <a href="../index.html">На главную</a>
+        
+    </body>
+</html>

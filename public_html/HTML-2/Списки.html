@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Списки</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="списки, вложенные списки">
+        <meta name="description" content="создание списка в хтмл">
+    </head>
+    <body>
+        <div>
+            <h2>Списки</h2>
+            <p>Упорядоченный (автоматически нумерующийся) список создается при помощи тега &lt;ol start="5"&gt;&lt;/ol&gt;
+                <br> параметр start="" используется для задания начального значения "счетчика"
+                <br>элементы списка обрамляются в тег &lt;li&gt;&lt;/li&gt;
+            </p>
+            <ol start="3">
+                <li>раз</li>
+                <li>два</li>
+            </ol>
+            <p>"неупорядоченный" список создается при помощи тега &lt;ul&gt;&lt;/ul&gt;</p>
+            <ul>
+                <li>элементы списка добавляются так же</li>
+                <li>тегом &lt;li&gt;&lt;/li&gt;</li>
+            </ul>
+            <p>Многоуровневый список делается вложением еще одной пары тегов списка &lt;ol&gt;&lt;/ol&gt; или &lt;ul&gt;&lt;/ul&gt <strong>в элемент &lt;li&gt;&lt;/li&gt;</strong> существующего списка</p>
+            <ul>
+                <li>список</li>
+                <li>с вложениями
+                    <ol>
+                        <li>раз</li>
+                        <li>два</li>
+                        <li>три</li>
+                    </ol>
+                </li>
+                <li>выглядит так</li>
+            </ul>
+
+            <h2>Список определений</h2>
+            <p>Список определений создаётся с помощью трёх тегов:
+                <br>&lt;dl&gt; обозначает сам список определений;
+                <br>&tl;dt&gt; обозначает термин;
+                <br>&tl;dd&gt; обозначает определение термина.
+                <br>Теги &lt;dt&gt; и &lt;dd&gt; пишутся парами внутри &lt;dl&gt;.
+            </p>
+            <p>Например</p>
+            <dl>
+                <dt>Термин</dt>
+                <dd>Определение</dd>
+
+                <dt>Второй термин</dt>
+                <dd>И его определение</dd>
+
+                <dt>Кошка</dt>
+                <dd>Шерстяное изделие развлекательного характера</dd>
+            </dl>
+        </div>
+		<a href="Разметка_тегами.html">Назад</a>
+    </body>
+</html>
