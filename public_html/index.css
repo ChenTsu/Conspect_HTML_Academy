@@ -7,10 +7,19 @@ and open the template in the editor.
     Created on : 20.09.2015, 19:40:48
     Author     : chentsu
 */
+body {
+	width: 1000px;
+	margin: 0px auto;
+	/*background: #B9CC00;*/
+	background: #C6CC7D;
+	font-size: 18px;
+}
 
 .code {
 	background: lightsteelblue;
 	padding-left: 25px;
-	border: 1px solid brown;
+	padding-right: 10px;
+	margin-left: 10px;
+	border: 1px solid blue;
 	width: 800px;
 }
